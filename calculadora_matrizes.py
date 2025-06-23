@@ -131,10 +131,3 @@ class MatrizGeral(MatrizABC):
             for j in range(self.colunas):
                 linha.append(f"{self.dados[i][j]:.2f}")
             print(" ".join(linha))
-
-# As outras classes (MatrizDiagonal, MatrizTriangularInferior, MatrizTriangularSuperior)
-# podem ser adaptadas do mesmo modo, usando IndexedArray para dados internos.
-
-# A classe CalculadoraMatricial também deve usar essas classes para manter a compatibilidade.
-
-# Se desejar, posso adaptar o código completo da calculadora para você.
